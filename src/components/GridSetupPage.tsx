@@ -42,7 +42,7 @@ export default function GridSetupPage({ onStartGame, onBack }: GridSetupPageProp
       // Tablet: Medium grids
       return [
         { rows: 5, cols: 6, label: '5×6', difficulty: 'Easy' },
-        { rows: 8, cols: 6, label: '8×6', difficulty: 'Medium' },
+        { rows: 7, cols: 6, label: '7×6', difficulty: 'Medium' },
         { rows: 8, cols: 8, label: '8×8', difficulty: 'Hard' },
       ];
     } else {
